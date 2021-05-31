@@ -6,7 +6,7 @@ Source : [leetcode.com](https://leetcode.com)
 ## Solutions
 
 | # | Problem | Solution | Time Complexity | Space Complexity
----|---|---|---|---
+---|:---:|:---|:---:|:---:
 01 | Two Sum | [Brute Force](./Python/Two-Sum-I.py) | O(n<sup>2</sup>) | O(1)
 || Two Sum | [Brute Force - II](./Python/Two-Sum-II.py) | O(n<sup>2</sup>) | O(1)
 || Two Sum | [Hash Table Approach](./Python/Two-Sum-III.py) | O(n) | O(n)
