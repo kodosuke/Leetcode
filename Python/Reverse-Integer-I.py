@@ -23,13 +23,11 @@ class Solution:
                 
                 reversed_integer = ( reversed_integer * 10 ) + x % 10
                 
-                if reversed_integer > pow(2, 31):
+                if reversed_integer >= pow(2, 31):
                     return 0
                 
                 x = x // 10
                 
             return reversed_integer * sign
-        
-        else:
-            return 0
+        return 0
                 
