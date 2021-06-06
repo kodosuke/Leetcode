@@ -2,7 +2,7 @@
 
 **Problem Statement**
 
-Search for an element `val` in the array of integers, `nums` of length `n`.
+Search for an element `val` in a __sorted__ array of integers, `nums` of length `n`.
 
 **Return**
 
