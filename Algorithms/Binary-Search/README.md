@@ -8,6 +8,8 @@ Search for an element `val` in the array of integers, `nums` of length `n`.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Index of `val` in `nums`.
 
+If `val` not found in `nums`, return `-1`.
+
 <p style='color:green'> Implementation in Python</p>
 
 
