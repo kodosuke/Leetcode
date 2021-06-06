@@ -12,7 +12,7 @@ If `val` not found in `nums`, return `-1`.
 
 **Implementation in Python**
 
-
+```python
 
     def binary_search(nums :list[int], val :int):
 
