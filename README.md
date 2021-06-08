@@ -6,7 +6,7 @@ Source : [leetcode.com](https://leetcode.com)
 ## Solutions
 
 | # | Problem | Difficulty | Solution | Time Complexity | Space Complexity |
----|:---:|:---|:---:|:---:|:---:|:--
+---|:---:|:---|:---:|:---:|:---:
 01 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [Brute Force](./Python/Two-Sum-I.py) | O(n<sup>2</sup>) | O(1) | 
 || [Two Sum](https://leetcode.com/problems/two-sum) | Easy |[Brute Force - II](./Python/Two-Sum-II.py) | O(n<sup>2</sup>) | O(1)
 || [Two Sum](https://leetcode.com/problems/two-sum) | Easy |[Hash Table Approach](./Python/Two-Sum-III.py) | O(n) | O(n)
