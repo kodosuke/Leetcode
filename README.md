@@ -5,9 +5,9 @@ Source : [leetcode.com](https://leetcode.com)
 
 ## Solutions
 
-| # | Problem | Difficulty | Solution | Time Complexity | Space Complexity
----|:---:|:---|:---:|:---:|:---:
-01 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [Brute Force](./Python/Two-Sum-I.py) | O(n<sup>2</sup>) | O(1)
+| # | Problem | Difficulty | Solution | Time Complexity | Space Complexity |
+---|:---:|:---|:---:|:---:|:---:|:--
+01 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [Brute Force](./Python/Two-Sum-I.py) | O(n<sup>2</sup>) | O(1) | 
 || [Two Sum](https://leetcode.com/problems/two-sum) | Easy |[Brute Force - II](./Python/Two-Sum-II.py) | O(n<sup>2</sup>) | O(1)
 || [Two Sum](https://leetcode.com/problems/two-sum) | Easy |[Hash Table Approach](./Python/Two-Sum-III.py) | O(n) | O(n)
 07 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | Easy | [Push and Pop digits](./Python/Reverse-Integer-I.py) | O(n) | O(1)
@@ -15,6 +15,7 @@ Source : [leetcode.com](https://leetcode.com)
 09 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [Push and Pop digits](./Python/Palindrome-Number-I.py) | O(n) | O(1)
 | | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [Slicing + Typecasting](./Python/Palindrome-Number-III.py) | O(n) | O(n)
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|[Backward Iteration](./Python/Length-of-Last-Word-I.py)|O(n)|O(1)
+||[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|Easy|[Python in-built functions](./Python/Length-of-Last-Word-II.py)|O(n)|O(n)
 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [Top Down Approach](./Python/Climbing-Stairs-I.py) | O(2<sup>n</sup>) | O(n)
 | | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [Top Down Approach with Memoization](./Python/Climbing-Stairs-II.py) | O(n) | O(n)
 | | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [Bottom up Approach](./Python/Climbing-Stairs-III.py) | O(n) | O(n)
