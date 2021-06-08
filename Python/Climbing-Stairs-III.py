@@ -1,21 +1,19 @@
 # # 70
-# Fibonacci Number with itertive Approach.
+# Bottom up Approach
 # Time complexity : O(n) 
-# Space complexity : O(1) 
+# Space complexity : O(n) 
 # Accepted
 # 
 
 class Solution:
-    
-    memo = {}
     def climbStairs(self, n: int) -> int:
         
-        if n not in self.memo:
+        dp = [ 0 ] * (n + 1)
+        dp[0] = 1
+        dp[1] = 1
+        
+        for i in range(2, n + 1):
             
-            if n < 3:
-                self.memo[n] = n
-                
-            else:
-                self.memo[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
-                  
-        return self.memo[n]
+            dp[i] = dp[i - 1] + dp[i - 2]
+            
+        return dp[n]
